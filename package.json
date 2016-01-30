@@ -1,0 +1,17 @@
+{
+  "name": "@f/css-default-units",
+  "description": "Add default units to css values",
+  "repository": "git://github.com/micro-js/css-default-units.git",
+  "version": "0.1.0",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "scripts": {
+    "postversion": "git push && git push --tags && npm publish --access=public"
+  },
+  "dependencies": {
+    "@f/css-unitless": "^1.0.1"
+  },
+  "devDependencies": {
+    "tape": "^4.2.2"
+  }
+}
